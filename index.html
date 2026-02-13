@@ -6,11 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Spectral by HTML5 UP</title>
+		<title>PeakX - your Peak</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="landing is-preload">
 
@@ -19,7 +20,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Spectral</a></h1>
+						<h1><a href="index.html">PeakX</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -27,8 +28,8 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
+											<li><a href="#two">About you</a></li>
+											<li><a href="#three">Your PeakX</a></li>
 											<li><a href="#">Sign Up</a></li>
 											<li><a href="#">Log In</a></li>
 										</ul>
@@ -41,126 +42,398 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>Spectral</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary">Activate</a></li>
-							</ul>
+							<h2>PeakX</h2>
+							<p>Empower women to be at their peak potential<br />
+						<!--	potential and optimize their health <br /> -->
+							through science-based insights and personalized care</p>
+						<!--		<ul class="actions special">
+								<li><a href="#" class="button primary">Check your peak</a></li>
+							</ul> -->
 						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
+						<a href="#one" class="more scrolly">Check your PeakX </a>
 					</section>
 
 				<!-- One -->
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>Understand your hormones. Stay at your peak<br />
+								</h2>
+
 							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
+
+
 						</div>
+
+
+					</section>
+				<!-- two -->
+					<section id="two" class="wrapper alt style2">
+							<div class="inner">
+
+								<h2>  <br /> About you</h2>
+								<form id="questionform" action="#three">
+									<div class="row gtr-uniform">
+										<div class="col-6 col-12-xsmall">
+											<h4>Age:
+											<input type="number" name="age" id="age" required min="15" max="100" placeholder="Age" > </h4>
+										</div>
+
+
+										<div class="col-6 col-12-xsmall">
+											<h4>Last menstruation:
+											<input type="date" name="lastdate" id="lastdate" required max="now" placeholder="lastmenstruation" > </h4>
+										</div>
+									</div>
+
+									<p> </p>
+									<div class="row gtr-uniform">
+
+										<h4>Known diseases:  </h4>
+
+										<div class="col-6 ">
+
+											<input type="checkbox" id="anxiety" name="anxiety" />
+											<label for="anxiety">Anxiety</label>
+											<input type="checkbox" id="depression" name="depression"  />
+											<label for="depression">Depression</label>
+											<input type="text" name="otherdiseases"	id="otherdiseases" placeholder="add other diseases" >
+
+											<p> </p>
+											<p> ADD TEXT , why this matter .</p>
+										</div>
+
+									</div>
+
+									<p> </p>
+
+									<div class="row gtr-uniform">
+
+										<h4>Family diseases: <br /> </h4>
+
+										<div class="col-6 col-12-xsmall">
+
+											<input type="checkbox" id="anxietyF" name="anxietyF"  >
+											<label for="anxietyF">Anxiety</label>
+											<input type="checkbox" id="depressionF" name="depressionF" >
+											<label for="depressionF">Depression</label>
+											<input type="text" name="otherdiseasesF"	id="otherdiseasesF" placeholder="add other familial diseases" >
+											<p> </p>
+											<p> ADD TEXT , why this matter .</p>
+										</div>
+
+									</div>
+
+									<p> </p>
+
+
+
+									<h4  style="color:mediumpurple ;">Physical & Vasomotor Symptoms: <br />  </h4>
+
+
+
+									<h5  style="color:mediumpurple ;">Hot flashes or night sweats: <br /> </h5>
+
+									<select name="hotflashes" required id="hotflashes">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Mild</option>
+										<option value="2">Moderate</option>
+										<option value="3">Severe</option>
+									</select>
+
+									<p> </p>
+
+									<h5  style="color:mediumpurple ;">Trouble falling asleep or staying asleep: <br /> </h5>
+
+									<select name="sleep" required id="sleep">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Mild</option>
+										<option value="2">Moderate</option>
+										<option value="3">Severe</option>
+									</select>
+
+									<p> </p>
+
+									<h5  style="color:mediumpurple ;">Unexplained fatigue or low energy: <br /> </h5>
+
+									<select name="energy" required id="energy">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Mild</option>
+										<option value="2">Moderate</option>
+										<option value="3">Severe</option>
+									</select>
+
+									<p> </p>
+
+									<h5  style="color:mediumpurple ;">Heart palpitations or dizziness: <br /> </h5>
+
+									<select name="heart" required id="heart">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Mild</option>
+										<option value="2">Moderate</option>
+										<option value="3">Severe</option>
+									</select>
+
+									<p> </p>
+
+									<h5  style="color:mediumpurple ;">Hear loss, sensorineural hearing changes (tinnitus, sound sensitivity): <br /> </h5>
+
+									<select name="hear" required id="hear">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Mild</option>
+										<option value="2">Moderate</option>
+										<option value="3">Severe</option>
+									</select>
+
+									<p> </p>
+
+									<h5  style="color:mediumpurple ;">Joint pain or muscle stiffness/pain: <br /> </h5>
+
+									<select name="joints" required id="joints">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Mild</option>
+										<option value="2">Moderate</option>
+										<option value="3">Severe</option>
+									</select>
+
+									<p> </p>
+
+									<h5  style="color:mediumpurple ;">Weight gain or bloating that’s hard to control: <br /> </h5>
+
+									<select name="weight" required id="weight">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Mild</option>
+										<option value="2">Moderate</option>
+										<option value="3">Severe</option>
+									</select>
+
+									<p> </p>
+									<p> ADD TEXT , why this matter .</p>
+
+
+									<h4  style="color: #00ffcc ;">Cognitive & Emotional Health: <br /> </h4>
+
+									<h5 style="color: #00ffcc ;">Feeling nervous, anxious, or on edge: <br /> </h5>
+									<select name="feelingnervous" required id="feelingnervous">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Several days</option>
+										<option value="2">More than half the days</option>
+										<option value="3">Nearly every day</option>
+
+									</select>
+
+									<p> </p>
+
+									<h5 style="color: #00ffcc ;">Difficulty relaxing or controlling worry: <br /> </h5>
+
+									<select name="relax" required id="relax">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Several days</option>
+										<option value="2">More than half the days</option>
+										<option value="3">Nearly every day</option>
+									</select>
+
+									<p> </p>
+
+									<h5 style="color: #00ffcc ;">Feeling down, depressed, or hopeless: <br /> </h5>
+									<select name="feelingdown" required id="feelingdown">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Several days</option>
+										<option value="2">More than half the days</option>
+										<option value="3">Nearly every day</option>
+									</select>
+
+									<p> </p>
+
+									<h5 style="color: #00ffcc ;">Difficulty concentrating / “brain fog”: <br /> </h5>
+									<select name="concetration" required id="concetration">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Several days</option>
+										<option value="2">More than half the days</option>
+										<option value="3">Nearly every day</option>
+									</select>
+
+									<p> </p>
+									<h5 style="color: #00ffcc ;">Loss of motivation or self-confidence: <br /> </h5>
+									<select name="motivation" required id="motivation">
+										<option value="">Select</option>
+										<option value="0">Not at all</option>
+										<option value="1">Several days</option>
+										<option value="2">More than half the days</option>
+										<option value="3">Nearly every day</option>
+									</select>
+									<p> </p>
+									<p> ADD TEXT , why this matter .</p>
+
+									<p> </p>
+									<h4 style="color:  rgba(144, 144, 144, 0.75) ;">Cycle & Sexual Health: <br /> </h4>
+									<p> </p>
+
+									<h5 style="color:  rgba(144, 144, 144, 0.75) ;">Have your periods become irregular in the past 12 months? <br /> </h5>
+									<select name="regularity" required id="regularity">
+										<option value="">Select</option>
+										<option value="0">No</option>
+										<option value="1">Occasionally</option>
+										<option value="2">Frequently</option>
+										<option value="3">Stopped (>4 months)</option>
+
+									</select>
+									<p> </p>
+
+									<h5 style="color:  rgba(144, 144, 144, 0.75) ;">Has your bleeding pattern changed?: <br /> </h5>
+									<select name="pattern" required id="pattern">
+										<option value="">Select</option>
+										<option value="0">No</option>
+										<option value="1">Lighter</option>
+										<option value="2">Heavier</option>
+										<option value="3">Unpredictable</option>
+									</select>
+
+									<p> </p>
+
+									<h5 style="color:  rgba(144, 144, 144, 0.75) ;">Changes in libido: <br /> </h5>
+									<select name="libido" required id="libido">
+										<option value="">Select</option>
+										<option value="0">None</option>
+										<option value="1">Mild</option>
+										<option value="2">Moderate</option>
+										<option value="3">Severe</option>
+									</select>
+									<p> </p>
+									<h5 style="color:  rgba(144, 144, 144, 0.75) ;">Vaginal discomfort (e.g. pain, ardor, prurido): <br /> </h5>
+									<select name="vaginal" required id="vaginal">
+										<option value="">Select</option>
+										<option value="0">None</option>
+										<option value="1">Mild</option>
+										<option value="2">Moderate</option>
+										<option value="3">Severe</option>
+									</select>
+									<p> </p>
+									<p> ADD TEXT , why this matter .</p>
+
+									<p> </p>
+									<h4 style="color: cornflowerblue ;">Sleep Quality: <br /> </h4>
+
+									<p> </p>
+
+									<h5 style="color:   cornflowerblue ;">Overall sleep quality in the last 2 weeks <br /> </h5>
+									<select name="sleepquality" required id="sleepquality">
+										<option value="">Select</option>
+										<option value="0">Very Good</option>
+										<option value="1">Fairly good</option>
+										<option value="2">Fairly bad</option>
+										<option value="3">Very bad</option>
+
+									</select>
+									<p> </p>
+									<h5 style="color:   cornflowerblue ;">Nights per week you wake up for >15 min: <br /> </h5>
+									<select name="nightsweek" required id="nightsweek">
+										<option value="">Select</option>
+										<option value="0">0-1</option>
+										<option value="1">2-3</option>
+										<option value="2">4-5</option>
+										<option value="3">6-7</option>
+									</select>
+
+									<p> </p>
+									<h5 style="color:   cornflowerblue ;">How rested do you feel on waking? <br /> </h5>
+									<select name="walking" required id="walking">
+										<option value="">Select</option>
+										<option value="0">Always</option>
+										<option value="1">Often</option>
+										<option value="2">Sometimes</option>
+										<option value="3">Rarely/Never</option>
+									</select>
+									<p> </p>
+									<p> ADD TEXT , why this matter .</p>
+
+									<h4>Lifestyle & Context: <br /> </h4>
+									<p> </p>
+									<h5>Exercise ≥30 min at least 3×/week: <br /> </h5>
+									<select name="lifestyle" required id="lifestyle">
+										<option value="">Select</option>
+										<option value="0">Always</option>
+										<option value="1">Often</option>
+										<option value="2">Sometimes</option>
+										<option value="3">Rarely/Never</option>
+									</select>
+									<p> </p>
+								    <h5>Average hours of sleep per night: <br /> </h5>
+									<select name="sleepnight" required id="sleepnight">
+										<option value="">Select</option>
+										<option value="0">≥7 h</option>
+										<option value="1">6 h</option>
+										<option value="2">5 h</option>
+										<option value="3"><5 h</option>
+									</select>
+
+									<p> </p>
+									<h5>Perceived stress level last month <br /> </h5>
+									<select name="stresslevel" required id="stresslevel">
+										<option value="">Select</option>
+										<option value="0">Low</option>
+										<option value="1">Moderate</option>
+										<option value="2">High</option>
+										<option value="3">Extreme</option>
+									</select>
+									<p> </p>
+									<p> ADD TEXT , why this matter .</p>
+
+
+									<button type="submit" href="#three"> Check your PeakX </button>
+								</form>
+							</div>
 					</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
+
+
+
 
 				<!-- Three -->
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>Your Score <span id="peakx_result"></span> </h2>
+								<p id="status"></p>
+								<p id="peakx_descr"></p>
+
+
+
 							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
+
 						</div>
+
 					</section>
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
+
 
 				<!-- Footer -->
 					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: HTML5 UP</li>
+					</ul>
+				</footer>
+
 
 			</div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -169,6 +442,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+		    <script src="assets/js/peakX.js"></script>
+
+
 
 	</body>
 </html>
